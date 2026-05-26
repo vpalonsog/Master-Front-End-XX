@@ -1,0 +1,10 @@
+
+:root {
+    --base-color: #fd1502;
+    --important-color: #5c0000;
+    --warning-color: #ffc0cb;
+    --principal-font: 'Arial', sans-serif;
+    --secondary-font: 'Times New Roman', serif;
+    --content-position: flex-start;
+    --shadow-x: -8px;
+}

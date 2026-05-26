@@ -1,0 +1,9 @@
+:root {
+    --base-color: #0000ff;
+    --important-color: #0000b2;
+    --warning-color: #6efdfd;
+    --principal-font: 'Verdana', sans-serif;
+    --secondary-font: 'Georgia', serif;
+    --content-position: flex-end;
+    --shadow-x: 10px;
+}
