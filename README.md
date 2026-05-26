@@ -14,7 +14,44 @@ Dado el ejercicio, lo primero que se tuvo en cuenta fue cómo se debían nombrar
 
 ### INFORMACIÓN EXTRA DE ESTILOS Y PROPUESTAS
 
-Me parece importante destacar que, agregué estilos basados en flexbox para centrar los contenedores desde el body y sus elementos divs de cada contenedor. Adicional a ésto, propongo que si no sabemos cuál será el número de contenedores para poder automatizar éstos estilos sería prudente convertir el número de contenedores a una variable de entrada usando mixin, llamada *steps*, y se podría seguir usando un for o un forEach y en vez de tener la función *tone-text-color*, simplemente se limitaría a no verbose el código y se colocara el cálculo arriba dentro del scope de mixin *tone-variants*.
+Me parece importante destacar que, agregué estilos basados en flexbox para centrar los contenedores desde el body y sus elementos divs de cada contenedor. Adicional a ésto, propongo que si no sabemos cuál será el número de contenedores para poder automatizar éstos estilos sería prudente convertir el número de contenedores a una variable de entrada usando mixin, llamada *steps*, y se podría seguir usando un for o un forEach y en vez de tener la función *tone-text-color*, simplemente se limitaría a no verbose el código y se colocara el cálculo arriba dentro del scope de mixin *tone-variants*. De tal manera que, se aplicaría de la siguiente manera: 
+
+
+```scss
+@mixin tone-variants($steps, $base-color, $base-text-color) {
+  $levels: ();
+
+  @for $i from 1 through $steps {
+    $levels: list.append($levels, $i);
+  }
+
+  @each $i in $levels {
+    $light-bg: color.scale($base-color, $lightness: 18% * $i);
+    $dark-bg: color.scale($base-color, $lightness: -18% * $i);
+    $light-text: if(
+      color.channel($light-bg, "lightness", $space: hsl) > 50%,
+      color.scale($base-text-color, $lightness: -90%),
+      $base-text-color
+    );
+    $dark-text: if(
+      color.channel($dark-bg, "lightness", $space: hsl) > 50%,
+      color.scale($base-text-color, $lightness: -90%),
+      $base-text-color
+    );
+
+    .lighten-#{$i} {
+      background-color: $light-bg;
+      border-color: $light-bg;
+      color: $light-text;
+    }
+
+    .darken-#{$i} {
+      background-color: $dark-bg;
+      border-color: $dark-bg;
+      color: $dark-text;
+    }
+  }
+}
 
 ### INSTALACIÓN Y CONFIGURACIÓN
 
