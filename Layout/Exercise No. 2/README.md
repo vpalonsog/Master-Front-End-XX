@@ -20,7 +20,7 @@ Para realizar éste ejercicio lo primero que hice fue visualizar cuáles eran la
 ### INSTALACIÓN Y CONFIGURACIÓN
 
 <p align="justify">
-Para poder visualizar el Ejercicio es necesario moverse a la carpeta <em>Exercise No. 2</em> y ahí, copiar la ruta sobre <em>index.html</em>, que va a ser visualizada: <em>file:///home/vanessa/Practicing%20projects/Master-Front-End-XX/Layout/Exercise%20No.%202/index.html<em>. Para poder visualizar <em>styles-II.css</em>, pegue la importación del estilo comentada en el archivo <a href="./styles/main.css">main.css</a> 
+Para poder visualizar el Ejercicio es necesario moverse a la carpeta <em>Exercise No. 2</em> y ahí, copiar la ruta sobre <a href="./index.html">index.html</a>,, que va a ser visualizada: <em>file:///home/vanessa/Practicing%20projects/Master-Front-End-XX/Layout/Exercise%20No.%202/index.html<em>. Para poder visualizar <em>styles-II.css</em>, pegue la importación del estilo comentada en el archivo <a href="./styles/main.css">main.css</a> 
 </p> 
 
 ### DEMOSTRACIÓN VISUAL
