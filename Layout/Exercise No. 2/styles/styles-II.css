@@ -6,4 +6,5 @@
     --secondary-font: 'Georgia', serif;
     --content-position: flex-end;
     --shadow-x: 10px;
+    --border-radius: 5px;
 }
