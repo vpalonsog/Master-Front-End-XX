@@ -20,7 +20,6 @@ Dado el ejercicio, lo primero que se tuvo en cuenta fue cómo se debían nombrar
 Me parece importante destacar que, agregué estilos basados en flexbox para centrar los contenedores desde el body y sus elementos divs de cada contenedor. Adicional a ésto, propongo que si no sabemos cuál será el número de contenedores para poder automatizar éstos estilos sería prudente convertir el número de contenedores a una variable de entrada usando mixin, llamada <em>steps</em>, y se podría seguir usando un for o un forEach y en vez de tener la función <em>tone-text-color</em>, simplemente se limitaría a no verbose el código y se colocara el cálculo arriba dentro del scope de mixin <em>tone-variants</em>. De tal manera que, se aplicaría de la siguiente manera: 
 </p>
 
-
 ```scss
 @mixin tone-variants($steps, $base-color, $base-text-color) {
   $levels: ();
@@ -37,11 +36,10 @@ Me parece importante destacar que, agregué estilos basados en flexbox para cent
       color.scale($base-text-color, $lightness: -90%),
       $base-text-color
     );
-    ```
+
       color.channel($dark-bg, "lightness", $space: hsl) > 50%,
       color.scale($base-text-color, $lightness: -90%),
       $base-text-color
-    );
 
     .lighten-#{$i} {
       background-color: $light-bg;
