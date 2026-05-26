@@ -3,6 +3,7 @@
 <p align="justify"> 
 El objetivo de éste ejercicio era poder visualizar 4 tonos más oscuros y otros 4 más claros teniendo en cuenta un color base. Para efectos prácticos, era necesario establecer 4 colores base. Además, era necesario tener presente el color del texto base de las cajas para lograr contrastar con el color del background correspondiente.
 </p>
+
 ## TECNOLOGÍAS UTILIZADAS
 
 El ejercicio está elaborado con El Preprocesador Sass y Vite.
