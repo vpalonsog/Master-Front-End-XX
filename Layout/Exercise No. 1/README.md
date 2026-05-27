@@ -59,7 +59,7 @@ Me parece importante destacar que, agregué estilos basados en flexbox para cent
 ### INSTALACIÓN Y CONFIGURACIÓN
 
 <p align="justify">
-Para poder visualizar el Ejercicio es necesario ejecutar el comando <em>"git clone git@github.com:vpalonsog/Master-Front-End-XX.git".</em>. Luego, moverse a la carpeta <em>Exercise No. 1</em> y ahí, ejecutar el comando <em>"npm run dev"<em>
+Para poder visualizar el Ejercicio es necesario ejecutar el comando <em>"git clone git@github.com:vpalonsog/Master-Front-End-XX.git".</em>.Debes moverte a la carpeta <em>Layout</em>.Luego, moverse a la carpeta <em>Exercise No. 1</em> y ahí, ejecutar el comando <em>"npm run dev"<em>
 </p> 
 
 ### DEMOSTRACIÓN VISUAL

@@ -19,7 +19,7 @@ Lo primero que identiqué para poder trabajar en el ejercicio fue establecer qui
 ### INSTALACIÓN Y CONFIGURACIÓN
 
 <p align="justify">
-Para poder visualizar el Ejercicio es necesario moverse a la carpeta <em>Exercise No. 4</em> y ahí, copiar la ruta sobre <a href="./index.html">index.html</a>, que va a ser visualizada: <em>file:///home/vanessa/Practicing%20projects/Master-Front-End-XX/Layout/Exercise%20No.%204/index.html<em>. 
+Para poder visualizar el Ejercicio es necesario moverse a la carpeta <em>Layout</em>. Luego, a <em>Exercise No. 4</em> y ahí, copiar la ruta sobre <a href="./index.html">index.html</a>, que va a ser visualizada: <em>file:///home/vanessa/Practicing%20projects/Master-Front-End-XX/Layout/Exercise%20No.%204/index.html<em>. 
 </p> 
 
 ### DEMOSTRACIÓN VISUAL

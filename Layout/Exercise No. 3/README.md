@@ -24,7 +24,7 @@ Para resoluciones grandes no consideré necesario agregar media queries porque l
 ### INSTALACIÓN Y CONFIGURACIÓN
 
 <p align="justify">
-Para poder visualizar el Ejercicio es necesario moverse a la carpeta <em>Layout</em> y luego, a <em>Exercise No. 3</em>. Ahí, copiar la ruta sobre <a href="./index.html">index.html</a>, que va a ser visualizada: <em>file:///home/vanessa/Practicing%20projects/Master-Front-End-XX/Layout/Exercise%20No.%203/index.html#<em>. 
+Para poder visualizar el Ejercicio es necesario moverse a la carpeta <em>Layout</em>.Luego, a<em>Exercise No. 3</em>.Ahí, copiar la ruta sobre <a href="./index.html">index.html</a>,que va a ser visualizada: <em>file:///home/vanessa/Practicing%20projects/Master-Front-End-XX/Layout/Exercise%20No.%203/index.html#<em>. 
 </p> 
 
 ### DEMOSTRACIÓN VISUAL
