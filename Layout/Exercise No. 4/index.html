@@ -3,23 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Card element with CSSGrid</title>
+    <title>Card element with CSS Grid</title>
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <card>
+    <card class="card">
         <img src="./snorkeling-person.jpg" alt="Person snorkeling underwater">
         <h2>Title</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate, Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate,
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate, Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate, Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.
-        </p>
+        <div class="card-content">
+            <p class="card-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate, Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate,
+                Lorem ipsum dolor sit amet
+            </p>
+    
+            <p class="card-published">
+                <strong>Published:</strong> March 20, 2020
+            </p>
 
-        <p>
-            <strong>Published:</strong> March 20, 2020
-        </p>
+        </div>
 
-        <button>More info</button>
+             <button class="button">More info</button>
+
+       
 
     </card>
     
