@@ -1,0 +1,13 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0.5rem;
+}
+
+.hero__nav {
+    background-color: var(--navbar-color);
+    color: var(--header-title-color);
+    padding: 1rem;
+    width: 80%;
+    height: 100vh;
+}
