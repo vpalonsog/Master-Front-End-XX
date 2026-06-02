@@ -1,39 +1,6 @@
 main {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 0.5rem;
 }
 
-.hero__nav {
-    background-color: var(--navbar-color);
-    color: var(--header-title-color);
-    width: 90%;
-    height: 100vh;
-}
-
-.hero__nav > h2 {
-   justify-self: center;
-   margin: 0;
-   padding: 0.5rem;
-   font-size: 1.2rem;
-}
-
-.hero__nav > ul {
-    list-style:none;
-    background-color: var(--ul-navbar-color);
-    padding: 0;
-    width: 100%;
-    margin:0;
-    
-}
-
-.hero__nav > ul > li {
-    padding: 0.5rem;
-    border: 1px solid black;
-    width: 100%;
-}
-
-.hero__nav > ul > li > a {
-    text-decoration: none;
-    color: black;
-}
