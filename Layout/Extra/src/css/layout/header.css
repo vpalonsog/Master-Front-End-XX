@@ -10,3 +10,11 @@
     height: 30px;
 }
 
+
+
+
+@media (--small-viewport){
+    .header__top {
+        display: none;
+    }
+}

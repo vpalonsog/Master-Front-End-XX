@@ -52,15 +52,18 @@ aside {
 }
 
 @media (--medium-viewport){
+    
     .hero__nav {
        min-height:100%;
+        
     }
 
     .hero__nav > ul {
-        width: 100%;
+        width: 94%;
         margin: 0;
         padding: 0;
         align-self: start;
+        
     }
 
     

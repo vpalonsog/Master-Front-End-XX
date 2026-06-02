@@ -79,4 +79,10 @@ main {
         grid-template-columns: 1fr;
       
     }
+
+    .team__member {
+        border:none;
+        border-radius: 0;
+
+    }
 }
