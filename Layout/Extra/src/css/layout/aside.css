@@ -68,3 +68,9 @@ aside {
 
     
 }
+
+@media (--small-viewport){
+    .hero__nav > h2 {
+        display: none;
+    }
+}
