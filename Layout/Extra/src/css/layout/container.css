@@ -1,6 +1,45 @@
 main {
+    background-color: var(--main-color);
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 0.5rem;
+    grid-template-columns: 200px 1fr;
+    gap: 0;
+    align-items: start;
 }
 
+.team__list {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 24px;
+    align-content:start;
+}
+
+.team__member {
+    min-height: 220px;
+    border: 2px solid black;
+    border-radius: 6px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background: white;
+    padding: 18px;
+}
+
+.team__member > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.member__name {
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+
+.team__member:nth-child(9){
+    grid-column: 2
+}
+
+.team__member:nth-child(10){
+    grid-column: 3;
+}
