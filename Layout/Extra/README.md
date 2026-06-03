@@ -48,15 +48,15 @@ Para poder visualizar el Ejercicio es necesario ejecutar el comando <em>"git clo
 
 ![alt text](./images/Desktop.png)
 
-![alt text](Desktop-II.png)
+![alt text](./images/Desktop-II.png)
 
-![alt text](<Medium viewport-I.png>)
+![alt text](./images/Medium%20viewport-I.png)
 
-![alt text](<medium viewport-II.png>)
+![alt text](./images/medium%20viewport-II.png)
 
-![alt text](<Small viewport-I.png>)
+![alt text](./images/Small%20viewport-I.png)
 
-![alt text](<Small viewport-II.png>)
+![alt text](./images/Small%20viewport-II.png)
 
 
 
