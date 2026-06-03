@@ -69,7 +69,26 @@ aside {
     
 }
 
+
+@media (--medium-viewport){
+ .hero__nav {
+    position: fixed;
+    top: 8.125rem;
+    left:0;
+    width: inherit;
+     transition: top 0.2s ease;
+ }
+
+ .hero__nav.hero__nav--at-top {
+     top: 0;
+ }
+}
+
 @media (--small-viewport){
+
+    .hero__nav {
+        position: static;
+    }
     .hero__nav > h2 {
         display: none;
     }
