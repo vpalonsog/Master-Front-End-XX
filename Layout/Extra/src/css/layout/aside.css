@@ -85,11 +85,36 @@ aside {
 }
 
 @media (--small-viewport){
-
+    
     .hero__nav {
         position: static;
+        width: auto;
+        min-height: auto;
+        background-color: transparent;
+        
     }
     .hero__nav > h2 {
         display: none;
+    }
+
+    .hero__nav > ul {
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        background-color: transparent;
+        width: auto;
+    }
+    .hero__nav > ul > li {
+        border: 1px solid black;
+        margin: 0.3rem 0.2rem;
+        width: 21%;
+        background-color: var(--off-white-color);
+
+    }
+
+    .hero__nav > ul > li > a {
+        text-align: center;
     }
 }
