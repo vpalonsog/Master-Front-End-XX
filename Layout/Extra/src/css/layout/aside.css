@@ -85,12 +85,19 @@ aside {
 }
 
 @media (--small-viewport){
+
+    main {
+        padding-top: 60px;
+    }
     
     .hero__nav {
-        position: static;
-        width: auto;
+        position: fixed;
+        top: 80px;
+        left: 0;
+        width: 100%;
         min-height: auto;
-        background-color: transparent;
+        background-color: var(--navbar-color);
+        z-index: 5;
         
     }
     .hero__nav > h2 {
@@ -101,10 +108,10 @@ aside {
         display:flex;
         justify-content: space-around;
         align-items: center;
-        flex-wrap: wrap;
+        flex-wrap: wrap; 
         gap: 0.4rem;
-        background-color: transparent;
-        width: auto;
+        background-color: var(--navbar-color);
+        width: 100%;
     }
     .hero__nav > ul > li {
         border: 1px solid black;
