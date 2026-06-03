@@ -46,7 +46,7 @@ Para poder visualizar el Ejercicio es necesario ejecutar el comando <em>"git clo
 
 ### DEMOSTRACIÓN VISUAL
 
-![alt text](Desktop.png)
+![alt text](./images/Desktop.png)
 
 ![alt text](Desktop-II.png)
 
