@@ -20,22 +20,29 @@ Respecto al diseño responsivo, para poder alinear y fijar el elemento de la cla
 
 ### INFORMACIÓN EXTRA: ORGANIZACIÓN DE CARPETAS
 
-<p align="justify"> 
- Dado la clase de postcss decidí guiarme por ésa organización establecida. De manera que quedó ordenada de la siguiente manera: 
+Dado la clase de postcss decidí guiarme por ésa organización establecida.De manera que quedó ordenada de la siguiente manera:
 
-folder 'Extra': 
-   __src:
-      ___css
-         __base:media.css, variables.css
-         __layout:header.css, section.css, container.css, footer.css
-         __vendors: reset.css
-         __main.css
-      ___js
-         __nav-scroll.js
-   __index.html
-   __README.md
-   __images
-</p>
+```text
+Extra/
+├── src/
+│   ├── css/
+│   │   ├── base/
+│   │   │   ├── media.css
+│   │   │   └── variables.css
+│   │   ├── layout/
+│   │   │   ├── header.css
+│   │   │   ├── section.css
+│   │   │   ├── container.css
+│   │   │   └── footer.css
+│   │   ├── vendors/
+│   │   │   └── reset.css
+│   │   └── main.css
+│   └── js/
+│       └── nav-scroll.js
+├── index.html
+├── README.md
+└── images/
+```
 
 
 ### INSTALACIÓN Y CONFIGURACIÓN
