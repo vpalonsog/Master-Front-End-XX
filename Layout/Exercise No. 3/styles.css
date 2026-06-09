@@ -29,7 +29,8 @@ body {
 }
 
 .navbar > a {
-    flex: 1;
+    /* flex: 1; */
+    width: 100%;
     padding: 10px 14px;
     text-decoration: none;
     color: #ffffff;
@@ -42,6 +43,10 @@ body {
     background-color: var(--hover-color);
 }
 
+.navbar > a.about__me {
+  display: flex;
+  justify-content: flex-end;
+}
 
 @media screen and (max-width: 576px) {
     html {
