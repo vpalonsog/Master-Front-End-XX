@@ -41,3 +41,10 @@ header {
         line-height: 3rem;
     }
 }
+
+
+@media (--mobile-viewport){
+    .header__logo > div {
+        display: none;
+    }
+}
