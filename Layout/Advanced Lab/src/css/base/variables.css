@@ -1,10 +1,9 @@
 :root {
     --background-color: #141414;
-    --font-body: 
-    .jost-<uniquifier> {
-    font-family: "Jost", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    }
+    --color-text:  #ffffff;
+    --color-hover-text:#450645;
+    --font-body: "Jost", sans-serif;
+    --font-weight: 400;
 }
+
+
