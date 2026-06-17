@@ -4,12 +4,14 @@ header {
     display: flex;
     width: 100vw;
     height: 12vh;
-    background-color: var(--background-color);
+    background-color: var(--body-color);
     justify-content: space-between;
     font-size: 1.125rem;
     color: var(--color-text);
     position: fixed;
     top: 0;
+    left: 0;
+    z-index: 10;
 }
 
 .header__logo, .header__buttons {
@@ -46,6 +48,8 @@ header {
 @media (--tablet-viewport){
     header {
         height: 18vh;
+        position: fixed;
+        top: 0;
     }
 
     .header__logo > img {
@@ -61,7 +65,8 @@ header {
 @media (--mobile-viewport){
     header {
         height: 15vh;
-        width: 100vw;
+        position: fixed;
+        top: 0;
     }
 
     .header__logo {
