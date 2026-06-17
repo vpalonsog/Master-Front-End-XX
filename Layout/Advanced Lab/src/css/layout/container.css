@@ -44,9 +44,10 @@
     flex-direction: row-reverse;
 
     }
+
    .top > div {
     min-width: 300px;
-}
+    }
 
     .top > div:nth-child(1), .top > div:nth-child(2) {
         display: none;
@@ -60,12 +61,26 @@
         font-size: 1.25rem;
     }
     
-
-    .first > div > img{
-        min-width: 250px;
+    .first {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 0.5rem;
     }
 
+    .first > div:nth-child(5),
+    .first > div:nth-child(6) {
+        grid-column: span 2;
+    }
 
+    .first > div {
+        min-width: 0;
+    }
+
+    .first > div > img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
 
 }
 
