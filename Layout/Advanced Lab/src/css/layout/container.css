@@ -2,7 +2,7 @@
 
 .section__title {
     position: absolute;
-    top: 13%;
+    top: 18%;
     transform: translateY(-50%);
     background-color: inherit;
     color: var(--color-text);
@@ -18,7 +18,7 @@
 .top {
     display: flex;
     flex-direction: row-reverse;
-    margin-top: 10rem;
+    margin-top: 12rem;
     position: relative;
 }
 
@@ -30,7 +30,6 @@
 
     .top {
     flex-direction: row-reverse;
-    margin-top: 9.5rem;
 
     }
    .top > div {
@@ -42,7 +41,7 @@
     }
 
     .section__title {
-        top: 15%;
+        top: 21%;
     }
 
     #top__text {
@@ -60,7 +59,7 @@
     }
 
      .section__title {
-        top: 17%;
+        top: 21%;
     }
 
 
