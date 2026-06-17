@@ -84,6 +84,24 @@
 
 }
 
+@media (--mobile-tablet-viewport){
+
+    .top > div {
+        min-width: 200px;
+    }
+    
+    .first {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 0.5rem;
+    }
+
+    .first > div:nth-child(5),
+    .first > div:nth-child(6) {
+        grid-column: auto;
+    }
+}
+
 @media (--mobile-viewport){
     .top {
         flex-direction: column-reverse;
@@ -92,6 +110,10 @@
 
      .section__title {
         top: 21%;
+    }
+
+    .first {
+        grid-template-columns: 1fr;
     }
 
 
