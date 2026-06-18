@@ -64,7 +64,7 @@ header {
 
 @media (--xs-viewport){
     header {
-        height: 15vh;
+        height: 18.5vh;
         position: fixed;
         top: 0;
     }
