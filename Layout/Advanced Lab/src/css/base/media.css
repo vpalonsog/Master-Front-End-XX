@@ -1,3 +1,3 @@
-@custom-media --tablet-viewport (max-width: 1024px);
-@custom-media --mobile-tablet-viewport (max-width: 768px);
-@custom-media --mobile-viewport (max-width: 425px);
+@custom-media --lg-viewport (max-width: 1024px);
+@custom-media --md-viewport (max-width: 768px);
+@custom-media --xs-viewport (max-width: 425px);

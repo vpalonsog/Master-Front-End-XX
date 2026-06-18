@@ -9,7 +9,7 @@ footer > p {
     margin-top: 1rem;
 }
 
-@media (--tablet-viewport) {
+@media (--lg-viewport) {
     footer {
         height: 25%;
     }
@@ -19,7 +19,7 @@ footer > p {
     }
 }
 
-@media (--mobile-tablet-viewport) {
+@media (--md-viewport) {
     footer {
         height: 20%;
     }

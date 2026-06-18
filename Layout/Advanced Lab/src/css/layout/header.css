@@ -45,7 +45,7 @@ header {
 }
 
 
-@media (--tablet-viewport){
+@media (--lg-viewport){
     header {
         height: 18vh;
         position: fixed;
@@ -62,7 +62,7 @@ header {
     }
 }
 
-@media (--mobile-viewport){
+@media (--xs-viewport){
     header {
         height: 15vh;
         position: fixed;
