@@ -162,11 +162,11 @@
 
     .top {
         flex-direction: column-reverse;
-        margin-top: 16rem;
+        margin-top: 14rem;
     }
 
      .section__title {
-        top: 23%;
+        top: 30%;
     }
 
     .section__title, .section__title-2, .section__title-3 {
