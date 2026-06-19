@@ -51,6 +51,7 @@
 .first > .item > img:hover {
     transform: scale(1.3);
     position: relative;
+    padding: 0.2rem;
     z-index: 1;
 }
 
