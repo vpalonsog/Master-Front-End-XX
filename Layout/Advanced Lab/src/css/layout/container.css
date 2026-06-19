@@ -32,7 +32,7 @@
     margin-bottom: 2rem;
 }
 
-.top > div {
+.top > .top__item {
     min-width: 225px;
 }
 
@@ -43,12 +43,12 @@
     margin-bottom: 2rem;
 }
 
-.first > div > img {
+.first > .item > img {
     display: block;
     transition: transform 0.3s ease;
 }
 
-.first > div > img:hover {
+.first > .item > img:hover {
     transform: scale(1.3);
     position: relative;
     z-index: 1;
@@ -72,11 +72,11 @@
 
     }
 
-   .top > div {
+   .top > .top__item {
     min-width: 300px;
     }
 
-    .top > div:nth-child(1), .top > div:nth-child(2) {
+    .top > .top__item:nth-child(1), .top > .top__item:nth-child(2) {
         display: none;
     }
 
@@ -95,23 +95,23 @@
         gap: 0.5rem;
     }
 
-    .first > div:nth-child(5),
-    .first > div:nth-child(6) {
+    .first > .item:nth-child(5),
+    .first > .item:nth-child(6) {
         grid-column: span 2;
     }
 
-    .first > div {
+    .first > .item {
         min-width: 0;
     }
 
-    .first > div > img {
+    .first > .item > img {
         width: 100%;
         height: auto;
         display: block;
         transition: none;
     }
 
-    .first > div > img:hover {
+    .first > .item > img:hover {
         transform: none;
     }
 
@@ -139,18 +139,18 @@
 		display: inline;
 	}
 
-    .first > div > img {
+    .first > .item > img {
         transition: none;
     }
 
-    .first > div > img:hover {
+    .first > .item > img:hover {
         transform: none;
     }
     
 }
 @media (--md-viewport){
 
-    .top > div {
+    .top > .top__item {
         min-width: 200px;
     }
 
@@ -167,16 +167,26 @@
         gap: 0.5rem;
     }
 
-    .first > div:nth-child(5),
-    .first > div:nth-child(6) {
+    .first > .item:nth-child(5),
+    .first > .item:nth-child(6) {
         grid-column: auto;
     }
 
-    .first > div > img {
+    .first > .item,
+    .second > .item {
+        width: 100%;
+    }
+
+    .first > .item > img,
+    .second > .item > img {
+        width: 100%;
+        height: auto;
+        display: block;
         transition: none;
     }
 
-    .first > div > img:hover {
+    .first > .item > img:hover,
+    .second > .item > img:hover {
         transform: none;
     }
     
@@ -218,16 +228,16 @@
         gap: 0.5rem;
     }
 
-    .first > div > img {
+    .first > .item > img {
         transition: none;
     }
 
-    .first > div > img:hover {
+    .first > .item > img:hover {
         transform: none;
     }
     
 
-    .top > .top-item > img, .second > .item  > img{
+    .top > .top__item > img, .second > .item  > img{
         width: 100%;
     }
 
