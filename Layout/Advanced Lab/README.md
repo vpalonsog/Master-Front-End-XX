@@ -46,3 +46,11 @@ Para poder visualizar el Ejercicio es necesario ejecutar el comando <em>"git clo
 </p> 
 
 ### DEMOSTRACIÓN VISUAL
+
+![alt text](./images/xl-viewport.png);
+
+![alt text](./images/lg-viewport.png);
+
+![alt text](./images/md-viewport.png);
+
+![alt text](./images/xs-viewport.png);
