@@ -1,4 +1,4 @@
-# LABORATORIO EXTRA
+# LABORATORIO AVANZADO
 
 <p align="justify">
 El objetivo de éste ejercicio era replicar la Home page de Warner proporcionada, la cual contiene <em>un header, sections (cada uno con su respectivo título)</em> y teniendo presente lo anterior, ordenar la estructura acorde a las visuales y sus elementos teniendo en cuenta el diseño responsivo, acompañado de animaciones.
