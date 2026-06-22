@@ -41,8 +41,9 @@ aside {
 @media (--medium-viewport){
     
     .hero__nav {
-       min-height:100%;
-        
+       min-height: auto;
+       position: sticky;
+       top: 0;
     }
 
     .hero__nav > ul {
@@ -50,21 +51,7 @@ aside {
         margin: 0;
         padding: 0;
         align-self: start;
-        
     }
-
-    aside {
-    position: sticky;
-    top: 0;
-    left:0;
-    width: inherit;
-    }
-
-    .hero__nav.hero__nav--at-top {
-        top: 0;
-    }
-
-    
 }
 
 

@@ -47,7 +47,7 @@ main {
 
 @media (--medium-viewport) {
     main {
-        align-items: start;
+        align-items: stretch;
         grid-template-columns: 160px 1fr;
     }
 
