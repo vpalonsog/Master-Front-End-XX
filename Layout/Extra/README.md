@@ -53,17 +53,12 @@ Para poder visualizar el Ejercicio es necesario ejecutar el comando <em>"git clo
 
 ### DEMOSTRACIÓN VISUAL
 
-![alt text](./images/Desktop.png)
+![alt text](./images/large-viewport.png)
 
-![alt text](./images/Desktop-II.png)
+![alt text](./images/medium-viewport.png)
 
-![alt text](./images/Medium%20viewport-I.png)
+![alt text](./images/small-viewport.png)
 
-![alt text](./images/medium%20viewport-II.png)
-
-![alt text](./images/Small%20viewport-I.png)
-
-![alt text](./images/Small%20viewport-II.png)
 
 
 
