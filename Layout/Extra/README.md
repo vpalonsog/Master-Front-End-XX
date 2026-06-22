@@ -15,7 +15,7 @@ Antes de empezar a trabajar en la visual, lo primero que hice fue maquetar la es
 
 Una vez organizado ésto, apliqué <em>flexbox</em> para header,navbar,footer y <em>CSS GRID</em> para el main y el contenedor. Decidí usar CSS GRID para el main y el contenedor teniendo en cuenta la organización del layout para el <em>navbar y main</em> y dada la ubicación de los elementos que contienen la lista de la clase <em>.team__list</em> consideré que lo mejor era usar GRID, ya que personalmente considero que, ubicar los <em>div's</em> #9 y #10 era sencillo a través de éste sistema y a su vez, me permitiría aplicar las media queries de manera sencilla.
 
-Respecto al diseño responsivo, para poder alinear y fijar el elemento de la clase <em>.hero__nav</em> usé el estilo <em>fixed</em>. Con el tamaño mediano me apoyé de los event handlers del DOM y para diseños pequeños, con el estilo anterior e integrado con los demás estilos bastó.
+Respecto al diseño responsivo, para poder alinear y fijar el elemento de la clase <em>.hero__nav</em> usé el estilo <em>sticky</em> y ajusté sus propiedades auxiliares como <em>top</em> y <em>left</em>
 </p>
 
 ### INFORMACIÓN EXTRA: ORGANIZACIÓN DE CARPETAS
