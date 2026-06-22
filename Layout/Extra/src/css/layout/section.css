@@ -1,15 +1,27 @@
 
 .hero {
     background-color: var(--section-color);
-    min-height: 80px;
+    min-height: 60px;
     width: inherit;
     display: flex;
     align-items: center;
     padding: 0 10px;
 }
 
-.hero > h1 {
+.hero > p {
     margin: 0;
     color: var(--header-title-color);
+    font-size: x-large;
+}
 
+@media(--medium-viewport){
+    .hero > p {
+        font-size: larger;
+    }
+}
+
+@media(--small-viewport){
+    .hero > p {
+        font-size: larger;
+    }
 }
