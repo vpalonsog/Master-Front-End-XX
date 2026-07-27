@@ -1,9 +1,9 @@
+//1. Array operations
 /*Head*/
 const head = <T>(array: Array<T>): T =>{
     const [firstItem] = array;
     return firstItem;
 }
-
 
 head(['Hola', 'mi', 'nombre', 'es', 'Vanessa']) /* R/ 'Hola' */
 
@@ -18,7 +18,6 @@ tail(['Hola', 'mi', 'nombre', 'es', 'Vanessa']) /* R/ ['mi', 'nombre', 'es', 'Va
 
 
 /*Init*/
-
 const init = <T>(array: Array<T>): Array<T> => {
     const arraySliced = array.slice(0, -1);
     return arraySliced; 
@@ -28,6 +27,9 @@ const init = <T>(array: Array<T>): Array<T> => {
 init(['Inicio', 'mitad', 'final']); /* R/ ['Inicio', 'mitad'] */
 
 
+/*Last*/
+const last = <T>(array: Array<T>): T | undefined => {
+   return array.at(-1);
+}
 
-
-
+last([1,2,3,4]); /* R/ 4 */
