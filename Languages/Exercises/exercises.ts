@@ -33,3 +33,19 @@ const last = <T>(array: Array<T>): T | undefined => {
 }
 
 last([1,2,3,4]); /* R/ 4 */
+
+
+//2. Concat
+const concat = <T>(array1: Array<T>, array2: Array<T>): Array<T> => {
+    const arrayConcatenated = array1.concat(array2);
+    return arrayConcatenated;
+} 
+
+concat([1,2,3], [4,5,6]); /* R/ [1,2,3,4,5,6] */
+
+/**Concat improved*/
+const concatII = <T>(...arrays: Array<Array<T>>): Array<T> => {
+    return arrays.flat();
+}
+
+concatII(['hola'], ['mi', 'cumpleaños', 'es'], ['sept', 26]); /* R/ ['hola', 'mi', 'cumpleaños', 'es', 'sept', 26] */
