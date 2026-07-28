@@ -1,3 +1,5 @@
+import cloneDeep from 'lodash/cloneDeep';
+
 //1. Array operations
 /*Head*/
 const head = <T>(array: Array<T>): T =>{
@@ -35,6 +37,7 @@ const last = <T>(array: Array<T>): T | undefined => {
 last([1,2,3,4]); /* R/ 4 */
 
 
+
 //2. Concat
 const concat = <T>(array1: Array<T>, array2: Array<T>): Array<T> => {
     const arrayConcatenated = array1.concat(array2);
@@ -49,3 +52,32 @@ const concatII = <T>(...arrays: Array<Array<T>>): Array<T> => {
 }
 
 concatII(['hola'], ['mi', 'cumpleaños', 'es'], ['sept', 26]); /* R/ ['hola', 'mi', 'cumpleaños', 'es', 'sept', 26] */
+
+
+
+//3. Clone Merge
+/*Clone*/
+
+const clone = <T extends object>(source: T): T => {
+    return cloneDeep(source);
+}
+
+clone({
+    name: 'Vanessa',
+    age: 29,
+    verified: true
+}); 
+
+/* R/ { name: 'Vanessa', age: 29, verified: true } */
+
+//Another way to clone an object using structuredClone(simple object)
+
+const cloneII = <T extends object>(source: T): T => {
+    return structuredClone(source);
+}
+
+cloneII({
+    name: 'Vanessa',
+    age: 29,
+    verified: true
+}); 
