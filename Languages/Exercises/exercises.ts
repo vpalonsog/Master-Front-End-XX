@@ -81,3 +81,16 @@ cloneII({
     age: 29,
     verified: true
 }); 
+
+/*Merge*/
+
+const merge = <T extends object, U extends object>(source: T, target: U): T & U=> {
+    return Object.assign({}, target, source);
+}
+
+const object1 = {name: "Maria", surname: "Ibañez", country: "SPA" };
+const object2 = {name: "Luisa", age: 31, married: true };
+
+merge(object1, object2); /* R/ {name: 'Maria', age: 31, married: true, surname: 'Ibañez', country: 'SPA'} */  
+
+
