@@ -94,3 +94,20 @@ const object2 = {name: "Luisa", age: 31, married: true };
 merge(object1, object2); /* R/ {name: 'Maria', age: 31, married: true, surname: 'Ibañez', country: 'SPA'} */  
 
 
+/*Read Books*/
+type Book = {title: string, isRead: boolean};
+
+const isBookRead = (books: Book[], titleToRead: string): boolean => {
+    return books.some(item => item.title === titleToRead && item.isRead);
+}
+
+const books = [
+    {title: 'Harry Potter y la piedra filosofal', isRead: true},
+    {title: 'Canción de hielo y fuego', isRead: false},
+    {title: 'Devastación', isRead: true}
+];
+
+isBookRead(books, 'Harry Potter y la piedra filosofal'); /* R/ true */
+isBookRead(books, 'Devastación'); /* R/ true */
+isBookRead(books, 'Canción de hielo y fuego'); /* R/ false */
+isBookRead(books, 'Los pilares de la Tierra'); /* R/ false */
